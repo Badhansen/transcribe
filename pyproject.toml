@@ -1,0 +1,10 @@
+[project]
+name = "transcribe"
+version = "0.1.0"
+description = "his tool extracts audio from video files and transcribes it using OpenAI's Whisper model."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ffmpeg-python>=0.2.0",
+    "openai-whisper>=20240930",
+]
